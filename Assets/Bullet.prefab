@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426b5bb348efe7e48be78868f9c3d9a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sound: {fileID: 8300000, guid: 356b2b66bfe219541af4cbfc0a3cdd01, type: 3}
+  Sound: {fileID: 8300000, guid: 55eda995d338ef24da637f09a6131ca7, type: 3}
   Speed: 2
 --- !u!50 &8167978169171015880
 Rigidbody2D:
