@@ -8,6 +8,10 @@ public class GrudScript : MonoBehaviour
     private float LastShot;
     public GameObject BulletPrefab;
     private int Health=3;
+
+    public GameObject getJohn(){
+        return john;
+    }
     private void Update(){
         if(john==null) return;
 

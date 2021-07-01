@@ -23,7 +23,18 @@ public class JohnMove : MonoBehaviour
     public Rigidbody2D getRigidbody2D(){
         return Rigidbody2D;
     }
-    
+    public float getHorizontal(){
+        return Horizontal;
+    }
+    public bool getGrounded(){
+        return Grounded;
+    }
+    public float getJumpForce(){
+        return JumpForce;
+    }
+    public int getHealth(){
+        return Health;
+    }
 
     // Update is called once per frame
     void Update()
@@ -48,7 +59,7 @@ public class JohnMove : MonoBehaviour
             LastShot = Time.time;
         }
     }
-    private void FixedUpdate(){
+    public void FixedUpdate(){
         Rigidbody2D.velocity = new Vector2(Horizontal, Rigidbody2D.velocity.y);
     }
     private void Jump(){
@@ -64,6 +75,9 @@ public class JohnMove : MonoBehaviour
     public void Hit(){
         Health = Health - 1;
         if(Health ==0) Destroy(gameObject);
+    }
+    public void getJohnInGrud(){
+        
     }
 
 }
