@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class JohnMove : MonoBehaviour
 {
@@ -12,7 +13,9 @@ public class JohnMove : MonoBehaviour
     private bool Grounded;
     public GameObject BulletPrefab;
     private float LastShot;
-    private int Health = 5;
+    private float Health = 10f;
+    public GameObject Square;
+    [SerializeField] private Bar healthBar;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +35,7 @@ public class JohnMove : MonoBehaviour
     public float getJumpForce(){
         return JumpForce;
     }
-    public int getHealth(){
+    public float getHealth(){
         return Health;
     }
 
@@ -40,6 +43,8 @@ public class JohnMove : MonoBehaviour
     void Update()
     {
         Horizontal=Input.GetAxisRaw("Horizontal");
+            
+        
         if( Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f , 1.0f, 1.0f);
         else if (Horizontal > 0.0f) transform.localScale= new Vector3(1.0f , 1.0f, 1.0f);
 
@@ -73,8 +78,15 @@ public class JohnMove : MonoBehaviour
         bullet.GetComponent<BulletScript>().SetDirection(direction);
     }
     public void Hit(){
-        Health = Health - 1;
-        if(Health ==0) Destroy(gameObject);
+        Health = Health - 1f;
+        healthBar.SetSize(Health/100);
+        if(Health ==0) {
+            SceneManager.LoadScene("GameOver");
+            Destroy(gameObject);
+        }
+    }
+    public void DestroyJohn(){
+        Destroy(gameObject);
     }
     public void getJohnInGrud(){
         
