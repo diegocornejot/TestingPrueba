@@ -17,6 +17,7 @@ public class CamaraMove : MonoBehaviour
         if(john!=null){
             Vector3 position = transform.position;
             position.x = john.transform.position.x;
+            position.y = john.transform.position.y;
             transform.position = position;
         }
     }
