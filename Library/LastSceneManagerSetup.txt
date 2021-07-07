@@ -1,1 +1,13 @@
-sceneSetups: []
+sceneSetups:
+<<<<<<< HEAD
+<<<<<<< HEAD
+- path: Assets/Scenes/Options.unity
+=======
+- path: Assets/Scenes/Nivel2.unity
+>>>>>>> parent of b4df73f (.)
+=======
+- path: Assets/Scenes/Nivel2.unity
+>>>>>>> parent of b4df73f (.)
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
