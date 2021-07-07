@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 1158533338}
   - component: {fileID: 1158533341}
   - component: {fileID: 1158533340}
+  - component: {fileID: 1158533342}
   - component: {fileID: 1158533339}
   m_Layer: 5
   m_Name: ButtonOpciones
@@ -271,7 +272,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1158533340}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1158533342}
+        m_TargetAssemblyTypeName: Configuraciones, Scripts
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1158533340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,6 +323,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158533337}
   m_CullTransparentMesh: 1
+--- !u!114 &1158533342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158533337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d08253a4a3d0349a8e1e8c1f199253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1260137942
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,10 +367,10 @@ RectTransform:
   m_Father: {fileID: 1544190181}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.3518, y: 1.9599}
-  m_SizeDelta: {x: -47.0365, y: -13.3271}
+  m_AnchorMin: {x: 0.10700001, y: 0.21428575}
+  m_AnchorMax: {x: 0.90157926, y: 0.91071427}
+  m_AnchoredPosition: {x: 1.3518, y: -1.5401001}
+  m_SizeDelta: {x: 0.963501, y: 3.6729002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1260137944
 MonoBehaviour:
@@ -727,10 +752,10 @@ RectTransform:
   m_Father: {fileID: 1158533338}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.5457993, y: 0.7730007}
-  m_SizeDelta: {x: -57.1944, y: -18.5496}
+  m_AnchorMin: {x: 0.1071167, y: 0.1912448}
+  m_AnchorMax: {x: 0.86716247, y: 0.8278777}
+  m_AnchoredPosition: {x: 1.4542007, y: 0.27300072}
+  m_SizeDelta: {x: -1.1944008, y: 0.4503994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929135071
 MonoBehaviour:
