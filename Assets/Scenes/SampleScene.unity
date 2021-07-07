@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153893804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.48, y: 0, z: 0}
+  m_LocalPosition: {x: 0.48, y: 0, z: 10}
   m_LocalScale: {x: 0.96, y: 0.07, z: 1}
   m_Children: []
   m_Father: {fileID: 545413323}
@@ -2392,7 +2392,7 @@ MonoBehaviour:
   Speed: 1
   BulletPrefab: {fileID: 8167978169171015923, guid: 20670e201c645ec439c1f230ad7efecb, type: 3}
   Square: {fileID: 0}
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 1256864565}
 --- !u!95 &1140498802
 Animator:
   serializedVersion: 3
@@ -2749,7 +2749,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256864563}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.435, y: 0.855, z: 0}
+  m_LocalPosition: {x: -1.435, y: 0.855, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2008916021}

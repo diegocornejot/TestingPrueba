@@ -9,12 +9,12 @@ public class Bar : MonoBehaviour
     private void Start()
     {
         Transform bar=transform.Find("Bar");
-        bar.localScale = new Vector3(0.09f,0.01f);
+        bar.localScale = new Vector3(1f,1f);
         
     }
 
     public void SetSize(float sizeNormalized){
         Transform bar=transform.Find("Bar");
-        bar.localScale= new Vector3(sizeNormalized,0.01f);
+        bar.localScale= new Vector3(sizeNormalized,1f);
     }
 }

@@ -79,7 +79,7 @@ public class JohnMove : MonoBehaviour
     }
     public void Hit(){
         Health = Health - 1f;
-        healthBar.SetSize(Health/100);
+        healthBar.SetSize(Health/10);
         if(Health ==0) {
             SceneManager.LoadScene("GameOver");
             Destroy(gameObject);
