@@ -18,6 +18,6 @@ public class GameOver : MonoBehaviour
     }
     public void LoadGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Menu PRincipa");
     }
 }

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel2.unity
     guid: 2dd57ae71c654094385eee3e769de90b
+  - enabled: 1
+    path: Assets/Scenes/Menu PRincipa.unity
+    guid: d99a33b2d719be647b43788a0d33c901
   m_configObjects: {}
