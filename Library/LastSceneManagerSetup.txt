@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Options.unity
-=======
-- path: Assets/Scenes/Nivel2.unity
->>>>>>> parent of b4df73f (.)
+- path: Assets/Scenes/Menu PRincipa.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
