@@ -59,7 +59,7 @@ public class JohnMove : MonoBehaviour
         if( Input.GetKeyDown(KeyCode.W) && Grounded){
             Jump();
         }
-        if(Input.GetKey(KeyCode.Space) && Time.time > LastShot +0.25f){
+        if(Input.GetKey(KeyCode.Space) && Time.time > LastShot +0.20f){
             Shoot();
             LastShot = Time.time;
         }
