@@ -23,6 +23,9 @@ public class JohnMove : MonoBehaviour
         Animator = GetComponent<Animator>();
         
     }
+    public Bar getHealthBar(){
+        return healthBar;
+    }
     public Rigidbody2D getRigidbody2D(){
         return Rigidbody2D;
     }
@@ -38,11 +41,15 @@ public class JohnMove : MonoBehaviour
     public float getHealth(){
         return Health;
     }
+    public void setHealth(float vida){
+        Health=vida;
+    }
 
     // Update is called once per frame
     void Update()
     {
         Horizontal=Input.GetAxisRaw("Horizontal");
+        Debug.Log(Health);
             
         
         if( Horizontal < 0.0f) transform.localScale = new Vector3(-1.0f , 1.0f, 1.0f);
