@@ -17,4 +17,8 @@ public class Bar : MonoBehaviour
         Transform bar=transform.Find("Bar");
         bar.localScale= new Vector3(sizeNormalized,1f);
     }
+    public void Restaurar(){
+        Transform bar=transform.Find("Bar");
+        bar.localScale = new Vector3(1f,1f);
+    }
 }
