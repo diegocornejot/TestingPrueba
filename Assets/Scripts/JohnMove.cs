@@ -14,6 +14,7 @@ public class JohnMove : MonoBehaviour
     public GameObject BulletPrefab;
     private float LastShot;
     private float Health = 10f;
+    private float VeloDisparo=0.20f;
     public GameObject Square;
     [SerializeField] private Bar healthBar;
     // Start is called before the first frame update
@@ -22,6 +23,9 @@ public class JohnMove : MonoBehaviour
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
         
+    }
+    public void setVeloDisparo( float nuevaVeloDisparo){
+        VeloDisparo=nuevaVeloDisparo;
     }
     public Bar getHealthBar(){
         return healthBar;
@@ -66,7 +70,7 @@ public class JohnMove : MonoBehaviour
         if( Input.GetKeyDown(KeyCode.W) && Grounded){
             Jump();
         }
-        if(Input.GetKey(KeyCode.Space) && Time.time > LastShot +0.20f){
+        if(Input.GetKey(KeyCode.Space) && Time.time > LastShot +VeloDisparo){
             Shoot();
             LastShot = Time.time;
         }
