@@ -20,10 +20,16 @@ public class GrudScript : MonoBehaviour
     public GameObject getJohn(){
         return john;
     }
+    public bool getMustPatrol(){
+        return mustPatrol;
+    }
+    public void setWalkSpeed(float nuevo){
+        walkSpeed= nuevo;
+    }
     void Start(){
         mustPatrol = true;
     }
-    private void Update(){
+    public void Update(){
         if(john==null) return;
 
         Vector3 direction = john.transform.position - transform.position;
@@ -60,17 +66,20 @@ public class GrudScript : MonoBehaviour
         Health = Health - 1;
         if(Health ==0) Destroy(gameObject);
     }
-    void Patrol(){
+    public void Patrol(){
         
         if(mustTurn || bodyCollider.IsTouchingLayers(groundLayer)){
             Flip();
         }
         rb.velocity= new Vector2(walkSpeed * Time.fixedDeltaTime, rb.velocity.y);
     }
-    void Flip(){
+    public void Flip(){
         mustPatrol = false;
         transform.localScale = new Vector2(transform.localScale.x * -1,transform.localScale.y);
         walkSpeed *=-1;
         mustPatrol = true;
+    }
+    public float getHealth(){
+        return Health;
     }
 }

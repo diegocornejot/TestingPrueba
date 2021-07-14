@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 62
+    x: 0
     y: 43
-    width: 1858
-    height: 1037
+    width: 1920
+    height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -44,9 +44,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1858
-    height: 1037
-  m_MinSize: {x: 875, y: 300}
+    width: 1920
+    height: 997
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1858
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1017
-    width: 1858
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -117,12 +117,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1858
-    height: 987
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+    width: 1920
+    height: 947
+  m_MinSize: {x: 504, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 112
+  controlID: 79
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,12 +142,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1419
-    height: 987
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+    width: 1466
+    height: 947
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 113
+  controlID: 84
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,12 +167,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1419
-    height: 575
+    width: 1466
+    height: 552
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 114
+  controlID: 85
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,8 +190,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 351
-    height: 575
+    width: 363
+    height: 552
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 351
+    x: 363
     y: 0
-    width: 1068
-    height: 575
+    width: 1103
+    height: 552
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -236,23 +236,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 575
-    width: 1419
-    height: 412
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+    y: 552
+    width: 1466
+    height: 395
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,23 +263,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1419
+    x: 1466
     y: 0
-    width: 439
-    height: 987
-  m_MinSize: {x: 276, y: 71}
+    width: 454
+    height: 947
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 18}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,7 +306,7 @@ MonoBehaviour:
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 156
+    ID: 8340
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -373,7 +373,7 @@ MonoBehaviour:
       name: Testing
       fullName: Testing
       resultStatus: 2
-      duration: 0.0879939
+      duration: 0.0916919
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -389,7 +389,7 @@ MonoBehaviour:
       name: EditMode.dll
       fullName: C:/Users/diego/Testing/Library/ScriptAssemblies/EditMode.dll
       resultStatus: 2
-      duration: 0.058116
+      duration: 0.0686624
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -405,7 +405,7 @@ MonoBehaviour:
       name: DirectionTest
       fullName: DirectionTest
       resultStatus: 2
-      duration: 0.055758
+      duration: 0.0623835
       messages: One or more child tests had errors
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -421,12 +421,34 @@ MonoBehaviour:
       categories: []
       parentId: 1008
       parentUniqueId: '[EditMode][C:/Users/diego/Testing/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1009
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Arma]
+      name: Arma
+      fullName: DirectionTest.Arma
+      resultStatus: 1
+      duration: 0.013
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
     - id: 1003
       uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Direccion]
       name: Direccion
       fullName: DirectionTest.Direccion
       resultStatus: 1
-      duration: 0.0169283
+      duration: 0.0044861
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -448,7 +470,7 @@ MonoBehaviour:
       name: Existe
       fullName: DirectionTest.Existe
       resultStatus: 1
-      duration: 0.0017438
+      duration: 0.0011299
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -470,7 +492,7 @@ MonoBehaviour:
       name: FixedUpdate
       fullName: DirectionTest.FixedUpdate
       resultStatus: 2
-      duration: 0.0085864
+      duration: 0.0071402
       messages: 'System.NullReferenceException : Object reference not set to an instance
         of an object'
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
@@ -479,8 +501,8 @@ MonoBehaviour:
         at all
 
 '
-      stacktrace: "  at JohnMove.FixedUpdate () [0x00000] in C:\\Users\\diego\\Testing\\Assets\\Scripts\\JohnMove.cs:68
-        \r\n  at DirectionTest.FixedUpdate () [0x00006] in C:\\Users\\diego\\Testing\\Assets\\test\\EditMode\\DirectionTest.cs:46
+      stacktrace: "  at JohnMove.FixedUpdate () [0x00000] in C:\\Users\\diego\\Testing\\Assets\\Scripts\\JohnMove.cs:82
+        \r\n  at DirectionTest.FixedUpdate () [0x00006] in C:\\Users\\diego\\Testing\\Assets\\test\\EditMode\\DirectionTest.cs:41
         \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
         at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -498,7 +520,7 @@ MonoBehaviour:
       name: Grounded
       fullName: DirectionTest.Grounded
       resultStatus: 1
-      duration: 0.0024582
+      duration: 0.0022952
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -515,22 +537,20 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
-    - id: 1005
-      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Health]
-      name: Health
-      fullName: DirectionTest.Health
-      resultStatus: 2
-      duration: 0.0048597
-      messages: "  Expected: 5\r\n  But was:  10.0f\r\n"
+    - id: 1011
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Grud]
+      name: Grud
+      fullName: DirectionTest.Grud
+      resultStatus: 1
+      duration: 0.000795
+      messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
         Alternatively, your script can inherit from ScriptableObject or no base class
         at all
 
 '
-      stacktrace: 'at DirectionTest.Health () [0x00006] in C:\Users\diego\Testing\Assets\test\EditMode\DirectionTest.cs:33
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -539,22 +559,94 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
-    - id: 1006
-      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Menos_Vida]
-      name: Menos_Vida
-      fullName: DirectionTest.Menos_Vida
-      resultStatus: 2
-      duration: 0.0011044
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
+    - id: 1013
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.GrudFlip]
+      name: GrudFlip
+      fullName: DirectionTest.GrudFlip
+      resultStatus: 1
+      duration: 0.0002181
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1015
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.GrudHit]
+      name: GrudHit
+      fullName: DirectionTest.GrudHit
+      resultStatus: 1
+      duration: 0.000626
+      messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
         Alternatively, your script can inherit from ScriptableObject or no base class
         at all
 
 '
-      stacktrace: "  at JohnMove.Hit () [0x00012] in C:\\Users\\diego\\Testing\\Assets\\Scripts\\JohnMove.cs:82
-        \r\n  at DirectionTest.Menos_Vida () [0x00006] in C:\\Users\\diego\\Testing\\Assets\\test\\EditMode\\DirectionTest.cs:39
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1012
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.GrudPatrol]
+      name: GrudPatrol
+      fullName: DirectionTest.GrudPatrol
+      resultStatus: 1
+      duration: 0.0005961
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1014
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.GrudPatrol2]
+      name: GrudPatrol2
+      fullName: DirectionTest.GrudPatrol2
+      resultStatus: 1
+      duration: 0.0001847
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1016
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.GrudShoot]
+      name: GrudShoot
+      fullName: DirectionTest.GrudShoot
+      resultStatus: 2
+      duration: 0.0003987
+      messages: 'System.NullReferenceException : '
+      output: 
+      stacktrace: "  at (wrapper managed-to-native) UnityEngine.Component.get_transform(UnityEngine.Component)\r\n 
+        at DirectionTest.GrudShoot () [0x00000] in C:\\Users\\diego\\Testing\\Assets\\test\\EditMode\\DirectionTest.cs:129
         \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
         at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -567,7 +659,102 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
-    m_ResultText: 'Testing (0.088s)
+    - id: 1006
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Menos_Vida]
+      name: Menos_Vida
+      fullName: DirectionTest.Menos_Vida
+      resultStatus: 1
+      duration: 0.0013629
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        10
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1010
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.VelocidadDisparo]
+      name: VelocidadDisparo
+      fullName: DirectionTest.VelocidadDisparo
+      resultStatus: 1
+      duration: 0.000578
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Vida]
+      name: Vida
+      fullName: DirectionTest.Vida
+      resultStatus: 1
+      duration: 0.0010152
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        You are trying to create a MonoBehaviour using the ''new''
+        keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1008
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Vida2]
+      name: Vida2
+      fullName: DirectionTest.Vida2
+      resultStatus: 1
+      duration: 0.0005669
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    m_ResultText: 'Testing (0.092s)
 
       ---
 
@@ -624,10 +811,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 413
+    x: 363
     y: 73
-    width: 1066
-    height: 554
+    width: 1101
+    height: 531
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -635,7 +822,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1066, y: 533}
+  m_TargetSize: {x: 1101, y: 510}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -650,10 +837,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -533
-    m_HBaseRangeMax: 533
-    m_VBaseRangeMin: -266.5
-    m_VBaseRangeMax: 266.5
+    m_HBaseRangeMin: -550.5
+    m_HBaseRangeMax: 550.5
+    m_VBaseRangeMin: -255
+    m_VBaseRangeMax: 255
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -671,23 +858,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1066
-      height: 533
+      width: 1101
+      height: 510
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 533, y: 266.5}
+    m_Translation: {x: 550.5, y: 255}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -533
-      y: -266.5
-      width: 1066
-      height: 533
+      x: -550.5
+      y: -255
+      width: 1101
+      height: 510
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1066, y: 554}
+  m_LastWindowPixelSize: {x: 1101, y: 531}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -713,31 +900,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 62
+    x: 0
     y: 73
-    width: 350
-    height: 554
+    width: 362
+    height: 531
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: dc150000
       m_LastClickedID: 0
-      m_ExpandedIDs: d0e2ffff14e3ffffdee5ffffece5ffff44f5ffff4cf5ffffd8f5ffffaef6ffff344a0000444a00004e4a0000bc5f0000de5f0000ee5f0000f85f000062630000726300007c630000
+      m_ExpandedIDs: 1ac5ffff90ceffff94cfffff4adaffff94daffffe0daffff06dbffff22dbffff18e4ffff70e4ffff42e7ffffb2e7ffff32e8ffffaee8ffffd8e9ffff84eaffffc0eaffff82f1ffffe6f1ffff72f3ffff46f4ffff72f4ffff76f5fffff650000002510000d87b0000507e0000727e00009a7e0000f0860000f4860000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: john
+        m_OriginalName: john
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 32302
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -767,10 +954,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 413
+    x: 363
     y: 73
-    width: 1066
-    height: 554
+    width: 1101
+    height: 531
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -783,9 +970,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 606.0907, y: 187.95488, z: -44.415134}
+    m_Target: {x: 1.984061, y: -0.91443264, z: -0.87625307}
     speed: 2
-    m_Value: {x: 606.0907, y: 187.95488, z: -44.415134}
+    m_Value: {x: 1.984061, y: -0.91443264, z: -0.87625307}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -822,13 +1009,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -836,9 +1023,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 298.61563
+    m_Target: 2.9830844
     speed: 2
-    m_Value: 298.61563
+    m_Value: 2.9830844
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -883,10 +1070,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 62
-    y: 648
-    width: 1418
-    height: 391
+    x: 0
+    y: 625
+    width: 1465
+    height: 374
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -901,22 +1088,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/test/EditMode
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/test/EditMode
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\PROGRAMAS\GIT\TestingPrueba
+  m_LastProjectPath: C:\Users\diego\Testing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a490000
-    m_LastClickedID: 18826
-    m_ExpandedIDs: 000000007449000072510000f854000000ca9a3bffffff7f
+    m_SelectedIDs: cc6e0000
+    m_LastClickedID: 28364
+    m_ExpandedIDs: 00000000364c0000384c00003a4c0000544c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -944,7 +1131,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000074490000
+    m_ExpandedIDs: 00000000364c0000384c00003a4c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -969,8 +1156,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: dc150000
+    m_LastClickedInstanceID: 5596
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300005e5200005c42000000000000f89700009c450000a0450000a4450000a8450000ac450000
     m_RenameOverlay:
@@ -1020,10 +1207,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 62
-    y: 648
-    width: 1418
-    height: 391
+    x: 0
+    y: 625
+    width: 1465
+    height: 374
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -1045,10 +1232,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1481
+    x: 1466
     y: 73
-    width: 438
-    height: 966
+    width: 453
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 

@@ -24,6 +24,9 @@ public class JohnMove : MonoBehaviour
         Animator = GetComponent<Animator>();
         
     }
+    public float getVeloDisparo(){
+        return VeloDisparo;
+    }
     public void setVeloDisparo( float nuevaVeloDisparo){
         VeloDisparo=nuevaVeloDisparo;
     }
@@ -50,7 +53,7 @@ public class JohnMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         Horizontal=Input.GetAxisRaw("Horizontal");
         Debug.Log(Health);
