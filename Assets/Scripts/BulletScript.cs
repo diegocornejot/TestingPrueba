@@ -29,11 +29,15 @@ public class BulletScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
         JohnMove john= collision.GetComponent<JohnMove>();
         GrudScript grunt = collision.GetComponent<GrudScript>();
+        Boss boss = collision.GetComponent<Boss>();
         if(john!=null){
             john.Hit();
         }
         if(grunt!=null){
             grunt.Hit();
+        }
+        if(boss!=null){
+            boss.Hit();
         }
         DestroyBullet();
     }
