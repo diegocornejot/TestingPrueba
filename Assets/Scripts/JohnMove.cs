@@ -51,6 +51,9 @@ public class JohnMove : MonoBehaviour
     public void setHealth(float vida){
         Health=vida;
     }
+    public void setJumpForce(float salto){
+        JumpForce=salto;
+    }
 
     // Update is called once per frame
     public void Update()
