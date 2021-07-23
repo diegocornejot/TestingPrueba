@@ -35,11 +35,20 @@ public class DirectionTest : MonoBehaviour
         Assert.AreEqual(10f, objeto.getHealth());
     }
     [Test]
-    public void FixedUpdate()
+    public void Menos_VidaBoss()
     {
-        JohnMove objeto= new JohnMove();
-        objeto.FixedUpdate();
-        Assert.AreEqual(objeto.getRigidbody2D().velocity, new Vector2(objeto.getHorizontal(), objeto.getRigidbody2D().velocity.y));
+        Boss objeto= new Boss();
+        //objeto.Hit();
+        Debug.Log(objeto.getHealth());
+        Assert.AreEqual(20f, objeto.getHealth());
+    }
+    [Test]
+    public void Menos_VidaGrud()
+    {
+        GrudScript objeto= new GrudScript();
+        //objeto.Hit();
+        Debug.Log(objeto.getHealth());
+        Assert.AreEqual(3f, objeto.getHealth());
     }
     [Test]
     public void Vida()

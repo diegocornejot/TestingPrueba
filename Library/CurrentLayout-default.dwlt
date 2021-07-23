@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -1366
-    y: 347
-    width: 1366
-    height: 725
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
   m_ShowMode: 4
   m_Title: Test Runner
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
-    height: 725
+    width: 1920
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 705
-    width: 1366
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -117,12 +117,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1366
-    height: 675
-  m_MinSize: {x: 502, y: 492}
+    width: 1920
+    height: 947
+  m_MinSize: {x: 504, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 115
+  controlID: 16
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,12 +142,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1043
-    height: 675
-  m_MinSize: {x: 401, y: 492}
+    width: 1466
+    height: 947
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 116
+  controlID: 93
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,12 +167,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1043
-    height: 393
-  m_MinSize: {x: 401, y: 221}
-  m_MaxSize: {x: 8001, y: 4021}
+    width: 1466
+    height: 551
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 117
+  controlID: 94
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,10 +190,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 258
-    height: 393
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 363
+    height: 551
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 258
+    x: 363
     y: 0
-    width: 785
-    height: 393
+    width: 1103
+    height: 551
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
@@ -243,9 +243,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 393
-    width: 1043
-    height: 282
+    y: 551
+    width: 1466
+    height: 396
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 17}
@@ -269,12 +269,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1043
+    x: 1466
     y: 0
-    width: 323
-    height: 675
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 454
+    height: 947
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 19}
@@ -396,18 +396,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -323
-    y: 377
-    width: 322
-    height: 654
+    x: 1466
+    y: 73
+    width: 453
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 243
+    ID: 160
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 438
-    - 146
+    - 642
+    - 214
     relativeSizes:
     - 0.75
     - 0.25
@@ -417,7 +417,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 584
+    lastTotalSize: 856
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -468,9 +468,9 @@ MonoBehaviour:
       uniqueId: '[Testing][suite]'
       name: Testing
       fullName: Testing
-      resultStatus: 2
-      duration: 0.1053851
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0561231
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -484,9 +484,9 @@ MonoBehaviour:
       uniqueId: '[EditMode][C:/Users/diego/Testing/Library/ScriptAssemblies/EditMode.dll][suite]'
       name: EditMode.dll
       fullName: C:/Users/diego/Testing/Library/ScriptAssemblies/EditMode.dll
-      resultStatus: 2
-      duration: 0.0810077
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0310302
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -500,9 +500,9 @@ MonoBehaviour:
       uniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
       name: DirectionTest
       fullName: DirectionTest
-      resultStatus: 2
-      duration: 0.0791996
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0288102
+      messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
         Alternatively, your script can inherit from ScriptableObject or no base class
@@ -522,7 +522,7 @@ MonoBehaviour:
       name: Arma
       fullName: DirectionTest.Arma
       resultStatus: 1
-      duration: 0.0111631
+      duration: 0.0007086
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -544,7 +544,7 @@ MonoBehaviour:
       name: Bar
       fullName: DirectionTest.Bar
       resultStatus: 1
-      duration: 0.0006346
+      duration: 0.0005431
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -566,7 +566,7 @@ MonoBehaviour:
       name: Boss
       fullName: DirectionTest.Boss
       resultStatus: 1
-      duration: 0.0007524
+      duration: 0.0005121
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -588,7 +588,7 @@ MonoBehaviour:
       name: BossFlip
       fullName: DirectionTest.BossFlip
       resultStatus: 1
-      duration: 0.004255
+      duration: 0.0042594
       messages: 
       output: 
       stacktrace: 
@@ -605,7 +605,7 @@ MonoBehaviour:
       name: BossHit
       fullName: DirectionTest.BossHit
       resultStatus: 1
-      duration: 0.0013363
+      duration: 0.0013838
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -627,7 +627,7 @@ MonoBehaviour:
       name: BossPatrol
       fullName: DirectionTest.BossPatrol
       resultStatus: 1
-      duration: 0.0005468
+      duration: 0.0005834
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -649,7 +649,7 @@ MonoBehaviour:
       name: BossPatrol2
       fullName: DirectionTest.BossPatrol2
       resultStatus: 1
-      duration: 0.0001524
+      duration: 0.0002007
       messages: 
       output: 
       stacktrace: 
@@ -666,7 +666,7 @@ MonoBehaviour:
       name: Bullet
       fullName: DirectionTest.Bullet
       resultStatus: 1
-      duration: 0.0005224
+      duration: 0.000521
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -688,7 +688,7 @@ MonoBehaviour:
       name: Camara
       fullName: DirectionTest.Camara
       resultStatus: 1
-      duration: 0.0004771
+      duration: 0.0005167
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -710,7 +710,7 @@ MonoBehaviour:
       name: Configuraciones
       fullName: DirectionTest.Configuraciones
       resultStatus: 1
-      duration: 0.0005437
+      duration: 0.0005506
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -732,7 +732,7 @@ MonoBehaviour:
       name: Direccion
       fullName: DirectionTest.Direccion
       resultStatus: 1
-      duration: 0.0005504
+      duration: 0.0005252
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -754,7 +754,7 @@ MonoBehaviour:
       name: Existe
       fullName: DirectionTest.Existe
       resultStatus: 1
-      duration: 0.000863
+      duration: 0.0007727
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -771,40 +771,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
-    - id: 1007
-      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.FixedUpdate]
-      name: FixedUpdate
-      fullName: DirectionTest.FixedUpdate
-      resultStatus: 2
-      duration: 0.0052769
-      messages: 'System.NullReferenceException : Object reference not set to an instance
-        of an object'
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
-        This is not allowed.  MonoBehaviours can only be added using AddComponent().
-        Alternatively, your script can inherit from ScriptableObject or no base class
-        at all
-
-'
-      stacktrace: "  at JohnMove.FixedUpdate () [0x00000] in C:\\Users\\diego\\Testing\\Assets\\Scripts\\JohnMove.cs:85
-        \r\n  at DirectionTest.FixedUpdate () [0x00006] in C:\\Users\\diego\\Testing\\Assets\\test\\EditMode\\DirectionTest.cs:41
-        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
     - id: 1027
       uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.GameOver]
       name: GameOver
       fullName: DirectionTest.GameOver
       resultStatus: 1
-      duration: 0.0007122
+      duration: 0.0005537
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -826,7 +798,7 @@ MonoBehaviour:
       name: Grounded
       fullName: DirectionTest.Grounded
       resultStatus: 1
-      duration: 0.0006731
+      duration: 0.0005287
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -848,7 +820,7 @@ MonoBehaviour:
       name: Grud
       fullName: DirectionTest.Grud
       resultStatus: 1
-      duration: 0.0005104
+      duration: 0.0005445
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -870,7 +842,7 @@ MonoBehaviour:
       name: GrudFlip
       fullName: DirectionTest.GrudFlip
       resultStatus: 1
-      duration: 0.0001517
+      duration: 0.0001588
       messages: 
       output: 
       stacktrace: 
@@ -887,7 +859,7 @@ MonoBehaviour:
       name: GrudHit
       fullName: DirectionTest.GrudHit
       resultStatus: 1
-      duration: 0.0005002
+      duration: 0.0005419
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -909,7 +881,7 @@ MonoBehaviour:
       name: GrudPatrol
       fullName: DirectionTest.GrudPatrol
       resultStatus: 1
-      duration: 0.0005319
+      duration: 0.0005347
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -931,7 +903,7 @@ MonoBehaviour:
       name: GrudPatrol2
       fullName: DirectionTest.GrudPatrol2
       resultStatus: 1
-      duration: 0.00015
+      duration: 0.0001675
       messages: 
       output: 
       stacktrace: 
@@ -948,7 +920,7 @@ MonoBehaviour:
       name: LogicaBrillo
       fullName: DirectionTest.LogicaBrillo
       resultStatus: 1
-      duration: 0.0007844
+      duration: 0.0006202
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -970,7 +942,7 @@ MonoBehaviour:
       name: LogicaFullScreen
       fullName: DirectionTest.LogicaFullScreen
       resultStatus: 1
-      duration: 0.0005144
+      duration: 0.0005802
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -992,7 +964,7 @@ MonoBehaviour:
       name: Menos_Vida
       fullName: DirectionTest.Menos_Vida
       resultStatus: 1
-      duration: 0.0012064
+      duration: 0.0013323
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1011,12 +983,60 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1006
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Menos_VidaBoss]
+      name: Menos_VidaBoss
+      fullName: DirectionTest.Menos_VidaBoss
+      resultStatus: 1
+      duration: 0.0151446
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        20
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
+    - id: 1006
+      uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Menos_VidaGrud]
+      name: Menos_VidaGrud
+      fullName: DirectionTest.Menos_VidaGrud
+      resultStatus: 1
+      duration: 0.0157656
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        3
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
     - id: 1030
       uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.menu_jugar]
       name: menu_jugar
       fullName: DirectionTest.menu_jugar
       resultStatus: 1
-      duration: 0.0005227
+      duration: 0.0006502
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1038,7 +1058,7 @@ MonoBehaviour:
       name: MorirCaer
       fullName: DirectionTest.MorirCaer
       resultStatus: 1
-      duration: 0.0004776
+      duration: 0.0005276
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1060,7 +1080,7 @@ MonoBehaviour:
       name: Nivel3
       fullName: DirectionTest.Nivel3
       resultStatus: 1
-      duration: 0.0005348
+      duration: 0.0005571
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1082,7 +1102,7 @@ MonoBehaviour:
       name: NivelBoss
       fullName: DirectionTest.NivelBoss
       resultStatus: 1
-      duration: 0.000652
+      duration: 0.0005633
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1104,7 +1124,7 @@ MonoBehaviour:
       name: SiguienteNivel
       fullName: DirectionTest.SiguienteNivel
       resultStatus: 1
-      duration: 0.0005336
+      duration: 0.0005644
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1126,7 +1146,7 @@ MonoBehaviour:
       name: VelocidadDisparo
       fullName: DirectionTest.VelocidadDisparo
       resultStatus: 1
-      duration: 0.0004957
+      duration: 0.0005433
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1148,7 +1168,7 @@ MonoBehaviour:
       name: VelocidadDisparoBoss
       fullName: DirectionTest.VelocidadDisparoBoss
       resultStatus: 1
-      duration: 0.0004933
+      duration: 0.0005367
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1170,7 +1190,7 @@ MonoBehaviour:
       name: VelocidadDisparoGrud
       fullName: DirectionTest.VelocidadDisparoGrud
       resultStatus: 1
-      duration: 0.0005388
+      duration: 0.0005314
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1192,7 +1212,7 @@ MonoBehaviour:
       name: Vida
       fullName: DirectionTest.Vida
       resultStatus: 1
-      duration: 0.0008037
+      duration: 0.0008868
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1219,7 +1239,7 @@ MonoBehaviour:
       name: Vida2
       fullName: DirectionTest.Vida2
       resultStatus: 1
-      duration: 0.0005934
+      duration: 0.0005238
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1240,10 +1260,15 @@ MonoBehaviour:
       uniqueId: EditMode.dll/DirectionTest/[EditMode][DirectionTest.Volumen]
       name: Volumen
       fullName: DirectionTest.Volumen
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.000557
       messages: 
-      output: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1253,19 +1278,21 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditMode.dll/[EditMode][DirectionTest][suite]
-    m_ResultText: 'VelocidadDisparoGrud (0.001s)
+    m_ResultText: 'Menos_VidaBoss (0.015s)
 
       ---
 
-      You are trying
-      to create a MonoBehaviour using the ''new'' keyword.  This is not allowed. 
-      MonoBehaviours can only be added using AddComponent(). Alternatively, your
-      script can inherit from ScriptableObject or no base class at all'
+      You are trying to create
+      a MonoBehaviour using the ''new'' keyword.  This is not allowed.  MonoBehaviours
+      can only be added using AddComponent(). Alternatively, your script can inherit
+      from ScriptableObject or no base class at all
+
+      20'
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 158}
-      m_SelectedIDs: 0520645c
-      m_LastClickedID: 1550065669
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 9c5dcfae
+      m_LastClickedID: -1362141796
       m_ExpandedIDs: 5a863e912ca20dde7b84806affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1401,17 +1428,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1366
-    y: 377
-    width: 257
-    height: 372
+    x: 0
+    y: 73
+    width: 362
+    height: 530
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 14060000
+      m_SelectedIDs: ce0f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: f8e6ffffb4e7ffff5ae8ffff04e9ffffb4e9ffffc2eaffff72ebffff1aecffffc4ecffff8eedffff48eeffff5cefffffeef5ffff48f7ffffeef7ffff96f8ffff34f9ffffd8f9ffff40fbffff
+      m_ExpandedIDs: 2cf6ffffdaf6ffff80f7ffffb2f8ffff00f9ffff72faffff40fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1455,10 +1482,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1108
-    y: 377
-    width: 783
-    height: 372
+    x: 363
+    y: 73
+    width: 1101
+    height: 530
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -1571,10 +1598,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1366
-    y: 770
-    width: 1042
-    height: 261
+    x: 0
+    y: 624
+    width: 1465
+    height: 375
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1602,9 +1629,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7a450000
-    m_LastClickedID: 17786
-    m_ExpandedIDs: 000000005a4500005c4500005e4500007e45000000ca9a3b
+    m_SelectedIDs: 7e450000
+    m_LastClickedID: 17790
+    m_ExpandedIDs: 000000005a4500005c4500005e4500008245000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1659,7 +1686,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300005e5200005c42000000000000f89700009c450000a0450000a4450000a8450000ac450000a4440000a8440000c8440000c0440000c4440000cc440000d0440000d2460000da460000ee460000b0440000ac44000014560000a254000026640000d4570000925e0000644b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1684,7 +1711,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 86}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -1744,7 +1771,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 1556
+  m_LastInspectedObjectInstanceID: 4046
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
