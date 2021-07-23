@@ -10,7 +10,7 @@ public class Boss : MonoBehaviour
     public GameObject john;
     private float LastShot;
     public GameObject BulletPrefab;
-    private int Health=3;
+    private int Health=20;
     public Rigidbody2D rb;
     private bool mustTurn;
     public Transform groundCheckPos;
@@ -38,6 +38,7 @@ public class Boss : MonoBehaviour
 
         float distance = Mathf.Abs(john.transform.position.x - transform.position.x);
         float distancey = Mathf.Abs(john.transform.position.y - transform.position.y);
+        Debug.Log(mustPatrol);
         if(distance < 1.0f && Time.time > LastShot + 0.25f && distancey < 0.5f)
         {
             mustPatrol=false;
@@ -45,6 +46,7 @@ public class Boss : MonoBehaviour
             else transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
             Shoot();
             LastShot = Time.time;
+            
         }
         if (mustPatrol){
             Patrol();
@@ -60,7 +62,7 @@ public class Boss : MonoBehaviour
         if( transform.localScale.x == 1.0f) direction = Vector2.right;
         else direction = Vector2.left;
         Vector3 nuevo=Vector2.down*0.2f;
-        Debug.Log(nuevo);
+        
         GameObject bullet=Instantiate(BulletPrefab, transform.position + direction *0.2f+nuevo, Quaternion.identity);
         bullet.GetComponent<BulletScript>().SetDirection(direction);
     }
