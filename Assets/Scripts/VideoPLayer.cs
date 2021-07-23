@@ -19,5 +19,10 @@ public class VideoPLayer : MonoBehaviour
             videoPlayer.SetActive(true);
             Destroy(videoPlayer, timeToStop);
         }
+        DestroyCuadrado();
+    }
+    public void DestroyCuadrado(){
+        Destroy(gameObject,timeToStop);
     }
 }
+

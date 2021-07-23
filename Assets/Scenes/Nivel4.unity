@@ -5821,7 +5821,8 @@ MonoBehaviour:
   mustPatrol: 0
   walkSpeed: 20
   john: {fileID: 613185606}
-  BulletPrefab: {fileID: 8167978169171015923, guid: 20670e201c645ec439c1f230ad7efecb, type: 3}
+  BulletPrefab: {fileID: 4771838435504485762, guid: de1b07d0530139540bd0ce4a5022a40b, type: 3}
+  BulletPrefab2: {fileID: 4947921071193305023, guid: f56dc00d097d9404ab32d0ad884ac94f, type: 3}
   rb: {fileID: 423190208}
   groundCheckPos: {fileID: 1690481063}
   groundLayer:

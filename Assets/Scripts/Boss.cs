@@ -10,6 +10,7 @@ public class Boss : MonoBehaviour
     public GameObject john;
     private float LastShot;
     public GameObject BulletPrefab;
+    public GameObject BulletPrefab2;
     private int Health=20;
     public Rigidbody2D rb;
     private bool mustTurn;
@@ -62,9 +63,16 @@ public class Boss : MonoBehaviour
         if( transform.localScale.x == 1.0f) direction = Vector2.right;
         else direction = Vector2.left;
         Vector3 nuevo=Vector2.down*0.2f;
+        if (Health<11){
+            GameObject bullet=Instantiate(BulletPrefab, transform.position + direction *0.4f+nuevo, Quaternion.identity);
+            bullet.GetComponent<BulletScript>().SetDirection(direction);
+        }
+        else{
+            GameObject bullet=Instantiate(BulletPrefab2, transform.position + direction *0.4f+nuevo, Quaternion.identity);
+            bullet.GetComponent<BulletScript>().SetDirection(direction);
+        }
         
-        GameObject bullet=Instantiate(BulletPrefab, transform.position + direction *0.2f+nuevo, Quaternion.identity);
-        bullet.GetComponent<BulletScript>().SetDirection(direction);
+        
     }
     public void Hit(){
         Health = Health - 1;
