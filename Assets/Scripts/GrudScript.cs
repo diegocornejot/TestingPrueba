@@ -16,9 +16,16 @@ public class GrudScript : MonoBehaviour
     public Transform groundCheckPos;
     public LayerMask groundLayer;
     public Collider2D bodyCollider;
+    private float VeloDisparo=0.20f;
 
     public GameObject getJohn(){
         return john;
+    }
+    public void setVeloDisparo( float nuevaVeloDisparo){
+        VeloDisparo=nuevaVeloDisparo;
+    }
+    public float getVeloDisparo(){
+        return VeloDisparo;
     }
     public bool getMustPatrol(){
         return mustPatrol;

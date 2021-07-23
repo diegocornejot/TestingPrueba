@@ -17,7 +17,7 @@ public class Boss : MonoBehaviour
     public Transform groundCheckPos;
     public LayerMask groundLayer;
     public Collider2D bodyCollider;
-
+    private float VeloDisparo=0.20f;
     public GameObject getJohn(){
         return john;
     }
@@ -26,6 +26,12 @@ public class Boss : MonoBehaviour
     }
     public void setWalkSpeed(float nuevo){
         walkSpeed= nuevo;
+    }
+    public void setVeloDisparo( float nuevaVeloDisparo){
+        VeloDisparo=nuevaVeloDisparo;
+    }
+    public float getVeloDisparo(){
+        return VeloDisparo;
     }
     void Start(){
         mustPatrol = true;

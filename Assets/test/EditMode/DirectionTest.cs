@@ -74,6 +74,13 @@ public class DirectionTest : MonoBehaviour
         Assert.AreEqual(0.15f, objeto.getVeloDisparo());
     }
     [Test]
+    public void GameOver()
+    {
+        GameOver objeto= new GameOver();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
     public void Grud()
     {
         GrudScript objeto= new GrudScript();
@@ -86,6 +93,13 @@ public class DirectionTest : MonoBehaviour
         GrudScript objeto= new GrudScript();
         //objeto.DestroyVida();
         Assert.AreEqual(false, objeto.getMustPatrol());
+    }
+    [Test]
+    public void LogicaBrillo()
+    {
+        LogicaBrillo objeto= new LogicaBrillo();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
     }
     [Test]
     public void GrudFlip()
@@ -122,15 +136,146 @@ public class DirectionTest : MonoBehaviour
         Assert.AreEqual(2f, Health);
     }
     [Test]
-    public void GrudShoot()
+    public void LogicaFullScreen()
     {
-        GameObject BulletPrefab;
-        Vector3 direction;
-        if( transform.localScale.x == 1.0f) direction = Vector2.right;
-        else direction = Vector2.left;
-        //GameObject bullet=Instantiate(BulletPrefab, transform.position + direction *0.1f, Quaternion.identity);
-        //bullet.GetComponent<BulletScript>().SetDirection(direction);
+        LogicaFullScreen objeto= new LogicaFullScreen();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
     }
-
-
+    [Test]
+    public void VelocidadDisparoGrud()
+    {
+        GrudScript objeto= new GrudScript();
+        //objeto.DestroyVida();
+        objeto.setVeloDisparo(0.15f);
+        Assert.AreEqual(0.15f, objeto.getVeloDisparo());
+    }
+    [Test]
+    public void BossHit()
+    {
+        Boss objeto= new Boss();
+        float Health=objeto.getHealth();
+        Health = Health - 1;
+        if(Health ==0) Destroy(gameObject);
+        Assert.AreEqual(19f, Health);
+    }
+    [Test]
+    public void BossPatrol()
+    {
+        Boss objeto= new Boss();
+        //objeto.DestroyVida();
+        Assert.AreEqual(false, objeto.getMustPatrol());
+    }
+    [Test]
+    public void BossPatrol2()
+    {
+        bool mustPatrol = true;
+        bool mustTurn = true;
+        Collider2D bodyCollider;
+        if(mustTurn ){
+            int walkSpeed=0;
+        //transform.localScale = new Vector2(transform.localScale.x * -1,transform.localScale.y);
+            walkSpeed *=-1;
+            mustPatrol = true;
+            Assert.AreEqual(true, mustPatrol);
+        }
+        //rb.velocity= new Vector2(walkSpeed * Time.fixedDeltaTime, rb.velocity.y);
+    }
+    [Test]
+    public void BossFlip()
+    {
+        bool mustPatrol = false;
+        int walkSpeed=0;
+        //transform.localScale = new Vector2(transform.localScale.x * -1,transform.localScale.y);
+        walkSpeed *=-1;
+        mustPatrol = true;
+        Assert.AreEqual(true, mustPatrol);
+    }
+    [Test]
+    public void Boss()
+    {
+        Boss objeto= new Boss();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void VelocidadDisparoBoss()
+    {
+        Boss objeto= new Boss();
+        //objeto.DestroyVida();
+        objeto.setVeloDisparo(0.15f);
+        Assert.AreEqual(0.15f, objeto.getVeloDisparo());
+    }
+    [Test]
+    public void Bullet()
+    {
+        BulletScript objeto= new BulletScript();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void Bar()
+    {
+        Bar objeto= new Bar();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void Camara()
+    {
+        CamaraMove objeto= new CamaraMove();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void Configuraciones()
+    {
+        Configuraciones objeto= new Configuraciones();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void menu_jugar()
+    {
+        menu_jugar objeto= new menu_jugar();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void MorirCaer()
+    {
+        MorirCaer objeto= new MorirCaer();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void Nivel3()
+    {
+        Nivel3 objeto= new Nivel3();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void NivelBoss()
+    {
+        NivelBoss objeto= new NivelBoss();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void SiguienteNivel()
+    {
+        SiguienteNivel objeto= new SiguienteNivel();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    [Test]
+    public void Volumen()
+    {
+        Volumen objeto= new Volumen();
+        //objeto.DestroyVida();
+        Assert.Null(objeto);
+    }
+    
+    
 }
